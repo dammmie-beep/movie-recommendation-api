@@ -2,12 +2,6 @@
 
 A production-ready movie recommendation system using collaborative filtering. Built with FastAPI, Surprise, and MLflow.
 
-[![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/downloads/)
-[![FastAPI](https://img.shields.io/badge/FastAPI-0.104+-green.svg)](https://fastapi.tiangolo.com/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
-
-**[Live Demo](#)** | **[API Docs](http://localhost:8000/docs)** | **[MLflow Dashboard](http://localhost:5000)**
-
 ---
 
 ## 📋 Table of Contents
@@ -19,8 +13,7 @@ A production-ready movie recommendation system using collaborative filtering. Bu
 - [API Endpoints](#api-endpoints)
 - [Model Performance](#model-performance)
 - [Project Structure](#project-structure)
-- [Screenshots](#screenshots)
-- [Future Improvements](#future-improvements)
+- 
 
 ---
 
@@ -29,19 +22,19 @@ A production-ready movie recommendation system using collaborative filtering. Bu
 This project implements a movie recommendation system using collaborative filtering techniques. It provides a REST API that serves personalized movie recommendations based on user ratings from the MovieLens 1M dataset.
 
 **Key Highlights:**
-- 🚀 Fast API with <100ms response time
-- 🤖 SVD-based collaborative filtering
-- 📊 MLflow experiment tracking
-- 🐳 Docker-ready for deployment
-- 📚 Interactive API documentation
-- ✅ Trained on 1M real movie ratings
+- Fast API with <100ms response time
+- SVD-based collaborative filtering
+- MLflow experiment tracking
+- Docker-ready for deployment
+- Interactive API documentation
+- Trained on 1M real movie ratings
 
 ---
 
 ## ✨ Features
 
 ### Core Functionality
-- **Personalized Recommendations** - Get top-N movie suggestions for any user
+- **Personalised Recommendations** - Get top-N movie suggestions for any user
 - **Movie Search** - Find movies by title
 - **Popular Movies** - Discover trending films
 - **Rating Prediction** - Predict ratings for specific user-movie pairs
@@ -57,7 +50,7 @@ This project implements a movie recommendation system using collaborative filter
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Category | Technology |
 |----------|-----------|
@@ -73,7 +66,7 @@ This project implements a movie recommendation system using collaborative filter
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -85,7 +78,7 @@ This project implements a movie recommendation system using collaborative filter
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/movie-recommendation-api.git
+git clone [https://github.com/yourusername/movie-recommendation-api.git](https://github.com/dammmie-beep/movie-recommendation-api.git)
 cd movie-recommendation-api
 
 # Create virtual environment
@@ -119,7 +112,7 @@ Visit **http://localhost:8000/docs** for interactive API documentation.
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 ### Recommendations
 
@@ -204,7 +197,7 @@ curl "http://localhost:8000/health"
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 ### Training Results
 
@@ -233,7 +226,7 @@ curl "http://localhost:8000/health"
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 movie-recommendation-api/
@@ -269,23 +262,12 @@ movie-recommendation-api/
 
 ---
 
-## 📸 Screenshots
 
-### API Documentation
-![API Docs](docs/images/api-docs.png)
-*Interactive Swagger UI documentation*
 
-### Recommendation Response
-![Recommendations](docs/images/recommendations.png)
-*Sample recommendation response with movie details*
-
-### MLflow Dashboard
-![MLflow](docs/images/mlflow.png)
-*Experiment tracking and model comparison*
 
 ---
 
-## 🧪 Testing
+## Testing
 
 ```bash
 # Run all tests
@@ -300,7 +282,7 @@ pytest tests/test_api.py -v
 
 ---
 
-## 🐳 Docker Deployment
+## Docker Deployment
 
 ### Build and Run
 
@@ -325,18 +307,7 @@ LOG_LEVEL=INFO
 
 ---
 
-## ☁️ Cloud Deployment
-
-### Deploy to Railway
-
-```bash
-npm i -g @railway/cli
-railway login
-railway init
-railway up
-```
-
-Your API will be live at: `https://your-app.railway.app`
+## Cloud Deployment
 
 ### Deploy to Render
 
@@ -345,32 +316,10 @@ Your API will be live at: `https://your-app.railway.app`
 3. Set start command: `uvicorn src.api.main:app --host 0.0.0.0 --port $PORT`
 4. Deploy!
 
----
-
-## 🔮 Future Improvements
-
-### Planned Features
-- [ ] User authentication and profiles
-- [ ] Cold-start handling for new users
-- [ ] Content-based filtering integration
-- [ ] Real-time model updates
-- [ ] A/B testing framework
-- [ ] Recommendation explanations
-- [ ] Redis caching layer
-- [ ] Kubernetes deployment
-- [ ] Prometheus monitoring
-- [ ] GraphQL API option
-
-### Model Enhancements
-- [ ] Deep learning models (NCF, AutoRec)
-- [ ] Context-aware recommendations
-- [ ] Multi-armed bandit for exploration
-- [ ] Ensemble methods
-- [ ] Transfer learning from other domains
 
 ---
 
-## 📚 Documentation
+## Documentation
 
 - **API Docs**: http://localhost:8000/docs
 - **ReDoc**: http://localhost:8000/redoc
@@ -379,7 +328,7 @@ Your API will be live at: `https://your-app.railway.app`
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -392,7 +341,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 🙏 Acknowledgments
+## Further Reading
 
 - MovieLens dataset by [GroupLens Research](https://grouplens.org/)
 - [Surprise library](http://surpriselib.com/) for collaborative filtering
@@ -401,16 +350,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ---
 
-## 📧 Contact
 
-**Your Name** - [your.email@example.com](mailto:your.email@example.com)
-
-**LinkedIn** - [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-
-**Project Link** - [github.com/yourusername/movie-recommendation-api](https://github.com/yourusername/movie-recommendation-api)
-
----
-
-## ⭐ Star History
 
 If this project helped you, please consider giving it a star!
