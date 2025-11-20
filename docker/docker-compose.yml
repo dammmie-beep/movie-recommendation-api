@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  api:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: movie-rec-api
+    ports:
+      - "8000:8000"
+    environment:
+      - MODEL_PATH=data/models/best_model.pkl
+      - DATASET_PATH=data/raw/ml-1m
+      - LOG_LEVEL=INFO
+    restart: unless-stopped
